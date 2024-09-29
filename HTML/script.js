@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const apiKey = '6caInGlgADSpgrZxZ1S8FhReWS8YJ4PzH372A8Iv'; 
+    // Entered api key unsecurely here
     const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
 
     fetch(apiUrl)
